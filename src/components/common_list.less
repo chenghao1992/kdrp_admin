@@ -1,0 +1,340 @@
+@import "common";
+@import "./skin.less";
+
+/*项目中一些常用的样式*/
+
+/*@Margin && @Padding  是全局变量  为15px*/
+
+//页面头部的统一显示
+  .common_header_h1 {
+     font-family: 黑体;
+     font-size: 18px;
+     margin-bottom: @Margin - 5;
+   }
+  .common_header_h2 {
+     font-family: 黑体;
+     font-size: 16px;
+   }
+  .common_header_p {
+    margin-bottom: @Margin * 2 ;
+    color: #a0a0a0;
+  }
+//介于搜索框和列表页之间 按钮 与上下的间隔的按钮们
+.common_button {
+  margin: @Margin 0 @Margin 0;
+}
+.common_button_1 {
+  float: @fl
+}
+.common_button_2 {
+  float: @fl;
+  margin-left: @Margin - 5;
+}
+.common_button_3 {
+  float: @fr;
+}
+
+//搜索框和列表页的间隔
+.common_search_list {
+  margin-bottom: @Margin + 5;
+}
+//搜索框之间的距离
+.common_search_clear {
+  margin: 0 @Margin - 5 0 @Margin - 5
+}
+//table页中 字段距离(距离可以按照实际大小改变)
+.common_table_ml {
+  margin-left: @Margin * 4;//60
+}
+ //tab
+.customerDetail_container{
+  .line{
+    width: 100%;
+    height: 1px;
+    background-color: #e5e5e5;
+    margin-bottom: 15px;
+  }
+  :global .ant-tabs-bar{
+    margin-bottom: 0;
+  }
+  :global .ant-tabs:not(.ant-tabs-vertical)>.ant-tabs-content{
+    border: 1px solid #e5e5e5;
+    border-top: 0;
+    padding-top: 15px;
+    margin-bottom: 40px;
+  }
+}
+
+.customerDetail_container_hr {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+
+.common_h2 {
+  font-family: 黑体;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+//一些常用的盒子属性
+//10 15 20 25 30
+.common_margin_l10 {
+  margin-left: @Margin - 5;
+}
+.common_margin_r10 {
+  margin-right: @Margin - 5;
+}
+.common_margin_t10 {
+  margin-top: @Margin - 5;
+}
+.common_margin_b10 {
+  margin-bottom: @Margin - 5;
+}
+.common_padding_l10 {
+  padding-left: @Padding - 5;
+}
+.common_padding_r10 {
+  padding-right: @Padding - 5;
+}
+.common_padding_t10 {
+  padding-top: @Padding - 5;
+}
+.common_padding_b10 {
+  padding-bottom: @Padding - 5;
+}
+//15
+.common_margin_l15 {
+  margin-left: @Margin;
+}
+.common_margin_r15 {
+  margin-right: @Margin;
+}
+.common_margin_t15 {
+  margin-top: @Margin;
+}
+.common_margin_b15 {
+  margin-bottom: @Margin;
+}
+.common_padding_l15 {
+  padding-left: @Padding;
+}
+.common_padding_r15 {
+  padding-right: @Padding;
+}
+.common_padding_t15 {
+  padding-top: @Padding;
+}
+.common_padding_b15 {
+  padding-bottom: @Padding;
+}
+//20
+.common_margin_l20 {
+  margin-left: @Margin + 5;
+}
+.common_margin_r20 {
+  margin-right: @Margin + 5;
+}
+.common_margin_t20 {
+  margin-top: @Margin + 5;
+}
+.common_margin_b20 {
+  margin-bottom: @Margin + 5;
+}
+.common_padding_l20 {
+  padding-left: @Padding + 5;
+}
+.common_padding_r20 {
+  padding-right: @Padding + 5;
+}
+.common_padding_t20 {
+  padding-top: @Padding + 5;
+}
+.common_padding_b20 {
+  padding-bottom: @Padding + 5;
+}
+//25
+.common_margin_l25 {
+  margin-left: @Margin + 10;
+}
+.common_margin_r25 {
+  margin-right: @Margin + 10;
+}
+.common_margin_t25 {
+  margin-top: @Margin + 10;
+}
+.common_margin_b25 {
+  margin-bottom: @Margin + 10;
+}
+.common_padding_l25 {
+  padding-left: @Padding + 10;
+}
+.common_padding_r25 {
+  padding-right: @Padding + 10;
+}
+.common_padding_t25 {
+  padding-top: @Padding + 10;
+}
+.common_padding_b25 {
+  padding-bottom: @Padding + 10;
+}
+//30
+.common_margin_l30 {
+  margin-left: @Margin * 2;
+}
+.common_margin_r30 {
+  margin-right: @Margin * 2;
+}
+.common_margin_t30 {
+  margin-top: @Margin * 2;
+}
+.common_margin_b30 {
+  margin-bottom: @Margin * 2;
+}
+.common_padding_l30 {
+  padding-left: @Padding * 2;
+}
+.common_padding_r30 {
+  padding-right: @Padding * 2;
+}
+.common_padding_t30 {
+  padding-top: @Padding * 2;
+}
+.common_padding_b30 {
+  padding-bottom: @Padding * 2;
+}
+
+
+.common_border {
+  .common_fn-border(1px,solid,@color_skyBlue);
+}
+.common_border_radius {
+  .common_fn_border-radius(2px)
+}
+
+
+//背景黑色black
+.common_b_black {
+  background-color: @color_black;
+}
+//背景天蓝色sky blue
+.common_b_skyBlue {
+  background-color: @color_skyBlue;
+}
+//背景浅黑色light black
+.common_b_lightBlack {
+  background-color: @color_lightBlack;
+}
+//背景浅绿色
+.common_b_success {
+  background-color: @success-color;
+}
+//灰色
+.common_b_normals {
+  background-color: @normal-color ;
+}
+//红色
+.common_b_error {
+  background-color: @color_error;
+}
+//紫色
+.common_b_edit {
+  background-color: @color_edit;
+}
+
+//字体白色
+.common_f_white {
+  color: @color_white;
+}
+//字体黑色
+.common_f_black {
+  color: @color_black;
+}
+//字体蓝色
+.common_f_skyBlue {
+  color: @color_skyBlue;
+}
+//字体浅黑色
+.common_f_lightBlack {
+  color: @color_lightBlack;
+}
+//字体浅绿色
+.common_f_success {
+  color: @success-color;
+}
+//灰色
+.common_f_normals {
+  color: @normal-color ;
+}
+//红色
+.common_f_error {
+  color: @color_error;
+}
+//紫色
+.common_f_edit {
+  color: @color_edit;
+}
+
+//字体大小  16px
+.common_f_size {
+  font-size: @FontSize - 2;
+}
+//字体加粗
+.common_f_bold {
+  font-weight: @f_bold;
+}
+//字体normol
+.common_f_normal {
+  font-weight: @f_normal;
+}
+
+//文字居中
+.common_t_center {
+  text-align: @text_center
+}
+//文字居左
+.common_t_left {
+  text-align: @text_l
+}
+//文字居右
+.common_t_right {
+  text-align: @text_r
+}
+
+/*display*/
+.common_d_none {
+  display: @none;
+}
+.common_d_block {
+  display: @block;
+}
+.common_d_inline {
+  display: @inline;
+}
+.common_d_inlineBlock {
+  display: @inlineBlock;
+}
+
+/*浮动*/
+.common_fr {
+  float: @fr;
+}
+.common_fl {
+  float: @fl;
+}
+
+
+/*清除浮动*/
+.common_clear_float {
+  .common_fn_clearFloat()
+}
+
+/*定位*/
+.common_p_relative {
+  position: @relative;
+}
+.common_p_absolute {
+  position: @absolute;
+}
+.common_p_fixed {
+  position: @fixed;
+}

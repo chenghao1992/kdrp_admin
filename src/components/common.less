@@ -1,0 +1,98 @@
+/*全局变量  _私有变量*/
+@Margin: 15px;
+@FontSize: 16px;
+@Padding: 15px;
+
+
+/*colors*/
+@color_red: #EE0000;//红色 red
+@color_white: #ffffff;//白色
+@color_black: #000000;//黑色
+@color_skyBlue: #108ee9;//天蓝色 sky blue
+@color_lightBlack: #656565;//浅黑色 light black
+@color_lightGreen: #96D67e;//浅绿色 light green
+@color_error: #f04134;//红色
+@color_edit: #d897eb;//标注紫色
+
+/*font-size*/
+@font-weight: font-weight;
+@f_bold: bold;
+@f_normal: normal;
+
+
+/*字体样式*/
+@text_center: center;
+@text_l: left;
+@text_r: right;
+
+
+/*display*/
+@none: none;
+@block: block;
+@inline: inline;
+@inlineBlock: inline-block;
+
+
+/*浮动*/
+@fr: right;
+@fl: left;
+
+
+/*清除浮动*/
+.common_fn_clearFloat () {
+  &:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+}
+
+
+/*hover*/
+.common_fn_hover(@fn_color,@fn_colors) {
+  &:hover {
+    @background: @fn_color;
+    @color: @fn_colors;
+  }
+}
+
+
+/*定位*/
+@relative: relative;
+@absolute: absolute;
+@fixed: fixed;
+
+
+/*margin*/
+.common_fn_margin (@fn_top, @fn_left, @fn_bottom, @fn_right) {
+  @margin: @fn_top @fn_left @fn_bottom @fn_right
+}
+
+
+/*padding*/
+.common_fn_padding (@fn_top, @fn_left, @fn_bottom, @fn_right) {
+ @padding: @fn_top @fn_left @fn_bottom @fn_right
+}
+
+
+/*border线样式*/
+@border-width: border-width;
+@border-style: border-style;
+@border-color: border-color;
+.common_fn-border(@fn_width,@fn_style,@fn_colors){
+  @border-width: @fn_width;
+  @border-style: @fn_style;
+  @border-color: @fn_colors;
+}
+.common_fn_border-radius(@radius) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  border-radius: @radius;
+}
+
+
+
+
+

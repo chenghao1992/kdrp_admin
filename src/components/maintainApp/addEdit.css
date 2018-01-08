@@ -1,0 +1,12 @@
+.editorStyle :global .w-e-text-container {
+  height: 600px !important;
+}
+.editorStyle :global .w-e-menu {
+  z-index: 1000 !important;
+}
+.editorStyle :global .w-e-toolbar {
+  border-color: #f0f0f0 !important;
+}
+.editorStyle :global .w-e-text-container {
+  border-color: #f0f0f0 !important;
+}

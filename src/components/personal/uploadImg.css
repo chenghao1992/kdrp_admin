@@ -1,0 +1,24 @@
+:global  .avatar-uploader,:global  .avatar-uploader-trigger,:global  .avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  margin: auto;
+
+
+}
+:global .ant-upload-select-text{
+
+}
+:global .avatar-uploader {
+  display: block;
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+:global .avatar-uploader-trigger {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 28px;
+  color: #999;
+}

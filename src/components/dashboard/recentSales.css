@@ -1,0 +1,7 @@
+/*========================*/
+/*=======Antd Admin=======*/
+/*========================*/
+.recentsales :global .ant-table-thead > tr > th {
+  background: #fff;
+  border-bottom: solid 1px #d9d9d9;
+}

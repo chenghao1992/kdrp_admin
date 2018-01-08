@@ -1,0 +1,35 @@
+/*========================*/
+/*=======Antd Admin=======*/
+/*========================*/
+.numberCard {
+  padding: 20px 25px;
+  font-family: monospace;
+  margin-bottom: 9px !important;
+  cursor: pointer;
+}
+.numberCard .iconWarp {
+  font-size: 35px;
+  float: left;
+  padding-right: 10px;
+}
+.numberCard .content {
+  width: 100%;
+  /*padding-left: 78px;*/
+}
+.numberCard .content .title {
+  line-height: 16px;
+  font-size: 15px;
+  margin-bottom: 0px;
+  height: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.numberCard .content .number {
+  line-height: 32px;
+  font-size: 20px;
+  height: 32px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

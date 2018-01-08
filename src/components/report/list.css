@@ -1,0 +1,84 @@
+.table :global .ant-table {
+  width: 100% !important;
+}
+.table :global .ant-table-tbody > tr > td,
+.table :global .ant-table-thead > tr > th {
+  height: 62px;
+}
+.table.motion :global .ant-table-tbody > tr > td,
+.table.motion :global .ant-table-thead > tr > th {
+  /*&:nth-child(1) {
+          width: 6%;
+        }
+
+        &:nth-child(2) {
+          width: 8%;
+        }
+
+        &:nth-child(3) {
+          width: 8%;
+        }
+
+        &:nth-child(4) {
+          width: 6%;
+        }
+
+        &:nth-child(5) {
+          width: 6%;
+        }
+
+        &:nth-child(6) {
+          width: 8%;
+        }
+
+        &:nth-child(7) {
+          width: 16%;
+        }
+
+        &:nth-child(8) {
+          width: 20%;
+        }
+
+        &:nth-child(9) {
+          width: 14%;
+        }
+
+        &:nth-child(10) {
+          width: 8%;
+        }*/
+}
+.table.motion :global .ant-table-thead > tr {
+  transition: none;
+  display: block;
+}
+.table.motion :global .ant-table-thead > tr > th {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.table.motion :global .ant-table-tbody > tr {
+  transition: none;
+  display: block;
+  border-bottom: 1px solid #f5f5f5;
+}
+.table.motion :global .ant-table-tbody > tr > td {
+  border-bottom: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.table.motion :global .ant-table-tbody > tr.ant-table-expanded-row-level-1 > td {
+  height: auto;
+}
+.report :global .ant-table {
+  width: 100% !important;
+}
+.report :global .ant-table-tbody > tr > td,
+.report :global .ant-table-thead > tr > th {
+  height: 50px;
+  border-right: 1px solid #f0f0f0;
+  text-align: center;
+}
+.report :global .ant-table-bordered .ant-table-thead > tr > th {
+  border-bottom: 1px solid #f0f0f0;
+}

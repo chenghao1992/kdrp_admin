@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  const data = [
+    {id:'1'},{id:2},{id:'fsdjfhsdj'},{id:'dsahdgas'}
+  ]
+
+  function getId(id, data) {
+    for (let i = 0; i < data.length; i++) {
+      if(data[i].id === id && i !== 0){
+        return data[i-1].name
+      }
+    }
+  }
+
+</script>
+</body>
+</html>

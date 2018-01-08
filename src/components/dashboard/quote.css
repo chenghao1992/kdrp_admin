@@ -1,0 +1,47 @@
+/*========================*/
+/*=======Antd Admin=======*/
+/*========================*/
+.quote {
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  padding: 24px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.quote .inner {
+  text-overflow: ellipsis;
+  word-wrap: normal;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  text-indent: 24px;
+}
+.quote .footer {
+  position: relative;
+  margin-top: 14px;
+}
+.quote .footer .description {
+  width: 100%;
+}
+.quote .footer .description p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-right: 64px;
+  text-align: right;
+}
+.quote .footer .description p:last-child {
+  font-weight: 100;
+}
+.quote .footer .avatar {
+  width: 48px;
+  height: 48px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}

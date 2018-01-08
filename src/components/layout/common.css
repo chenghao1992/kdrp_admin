@@ -1,0 +1,71 @@
+body {
+  height: 100%;
+  overflow-y: hidden;
+  background-color: #f8f8f8;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #e6e6e6;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+:global .ant-breadcrumb > span:last-child {
+  color: #999;
+  font-weight: normal;
+}
+:global .ant-breadcrumb-link .anticon + span {
+  margin-left: 4px;
+}
+:global .ant-table .ant-table-thead > tr > th {
+  text-align: center;
+}
+:global .ant-table .ant-table-tbody > tr > td {
+  text-align: center;
+}
+:global .ant-table.ant-table-small .ant-table-thead > tr > th {
+  background: #f7f7f7;
+}
+:global .ant-table.ant-table-small .ant-table-body > table {
+  padding: 0;
+}
+:global .ant-table-pagination {
+  float: none!important;
+  display: table;
+  margin: 16px auto !important;
+}
+:global .ant-popover-inner {
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 0 20px rgba(100, 100, 100, 0.2);
+}
+:global .vertical-center-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+:global .vertical-center-modal .ant-modal {
+  top: 0;
+}
+:global .vertical-center-modal .ant-modal .ant-modal-body {
+  max-height: 500px;
+  overflow-y: auto;
+}
+:global .ant-form-item-control {
+  vertical-align: middle;
+}
+/*========================*/
+/*=======Antd Admin=======*/
+/*========================*/
+:global .ant-modal-mask {
+  background-color: rgba(55, 55, 55, 0.2);
+}
+:global .ant-modal-content {
+  box-shadow: none;
+}
+:global .ant-card:hover {
+  overflow: auto;
+}
+:global .ant-pagination-item {
+  margin-bottom: 8px;
+}

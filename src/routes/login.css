@@ -1,0 +1,95 @@
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -160px 0 0 -160px;
+  width: 320px;
+  height: 320px;
+  padding: 36px;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.08);
+}
+.form button {
+  width: 100%;
+}
+.form p {
+  color: #cccccc;
+  text-align: center;
+  margin-top: 16px;
+}
+.form p span:first-child {
+  margin-right: 16px;
+}
+.logo {
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  margin-bottom: 24px;
+}
+.logo img {
+  width: 40px;
+  margin-right: 8px;
+}
+.logo span {
+  vertical-align: text-bottom;
+  font-size: 16px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.ant-spin-container,
+.ant-spin-nested-loading {
+  height: 100%;
+}
+.ant-modal-content {
+  position: relative;
+  background-color: #fff;
+  border: 0;
+  border-radius: 3px;
+  background-clip: padding-box;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  height: 500px;
+  padding: 0 40px;
+  width: 400px;
+  box-sizing: border-box;
+}
+:global .divWrapper {
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -250px 0 0 -200px;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.08);
+  padding: 50px 40px 0 40px ;
+  box-sizing: border-box;
+}
+:global .divWrapper .divHeader {
+  display: flex;
+  height: 50px;
+  line-height: 50px;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+:global .divWrapper .divHeader img {
+  width: 50px;
+}
+:global .divWrapper .divHeader span {
+  font-size: 28px;
+  color: #666;
+  font-weight: 600;
+  text-align: center;
+  flex: 1;
+}
+:global .divWrapper .divBody {
+  padding: 50px 0 0 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  min-height: 260px;
+}
+:global .divWrapper .width100 {
+  width: 100%;
+}
+:global .divWrapper .divFooter {
+  padding-top: 20px;
+  box-sizing: border-box;
+}

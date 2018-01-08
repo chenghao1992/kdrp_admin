@@ -1,0 +1,40 @@
+:global .ant-card-head {
+  background: #ECECEC!important;
+}
+:global .ant-card-head h3 {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+:global .name {
+  font-size: 26px;
+  color: #555;
+}
+:global .personal_info {
+  display: flex;
+  min-height: 50px;
+}
+:global .personal_info .left_con {
+  width: 20%;
+  text-align: center;
+}
+:global .personal_info .right_con {
+  flex: 1;
+  font-size: 14px;
+}
+:global .personal_info .right_con .gutter-example .ant-row > div {
+  background: transparent;
+  border: 0;
+}
+:global .personal_info .right_con .gutter-box {
+  padding: 5px 0;
+}
+:global .personal_info .right_con .textRight {
+  text-align: right;
+}
+:global .personal_info .ant-input[disabled] {
+  background-color: #fff;
+  opacity: 1;
+  cursor: not-allowed;
+  color: #999;
+}

@@ -1,0 +1,314 @@
+/*全局变量  _私有变量*/
+/*colors*/
+/*font-size*/
+/*字体样式*/
+/*display*/
+/*浮动*/
+/*清除浮动*/
+/*hover*/
+/*定位*/
+/*margin*/
+/*padding*/
+/*border线样式*/
+/*========================*/
+/*=======Antd Admin=======*/
+/*========================*/
+:global .ant-modal-mask {
+  background-color: rgba(55, 55, 55, 0.2);
+}
+:global .ant-modal-content {
+  box-shadow: none;
+}
+:global .ant-card:hover {
+  overflow: auto;
+}
+:global .ant-pagination-item {
+  margin-bottom: 8px;
+}
+/*项目中一些常用的样式*/
+/*@Margin && @Padding  是全局变量  为15px*/
+.common_header_h1 {
+  font-family: 黑体;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.common_header_h2 {
+  font-family: 黑体;
+  font-size: 16px;
+}
+.common_header_p {
+  margin-bottom: 30px;
+  color: #a0a0a0;
+}
+.common_button {
+  margin: 15px 0 15px 0;
+}
+.common_button_1 {
+  float: left;
+}
+.common_button_2 {
+  float: left;
+  margin-left: 10px;
+}
+.common_button_3 {
+  float: right;
+}
+.common_search_list {
+  margin-bottom: 20px;
+}
+.common_search_clear {
+  margin: 0 10px 0 10px;
+}
+.common_table_ml {
+  margin-left: 60px;
+}
+.customerDetail_container .line {
+  width: 100%;
+  height: 1px;
+  background-color: #e5e5e5;
+  margin-bottom: 15px;
+}
+.customerDetail_container :global .ant-tabs-bar {
+  margin-bottom: 0;
+}
+.customerDetail_container :global .ant-tabs:not(.ant-tabs-vertical) > .ant-tabs-content {
+  border: 1px solid #e5e5e5;
+  border-top: 0;
+  padding-top: 15px;
+  margin-bottom: 40px;
+}
+.customerDetail_container_hr {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+.common_h2 {
+  font-family: 黑体;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.common_margin_l10 {
+  margin-left: 10px;
+}
+.common_margin_r10 {
+  margin-right: 10px;
+}
+.common_margin_t10 {
+  margin-top: 10px;
+}
+.common_margin_b10 {
+  margin-bottom: 10px;
+}
+.common_padding_l10 {
+  padding-left: 10px;
+}
+.common_padding_r10 {
+  padding-right: 10px;
+}
+.common_padding_t10 {
+  padding-top: 10px;
+}
+.common_padding_b10 {
+  padding-bottom: 10px;
+}
+.common_margin_l15 {
+  margin-left: 15px;
+}
+.common_margin_r15 {
+  margin-right: 15px;
+}
+.common_margin_t15 {
+  margin-top: 15px;
+}
+.common_margin_b15 {
+  margin-bottom: 15px;
+}
+.common_padding_l15 {
+  padding-left: 15px;
+}
+.common_padding_r15 {
+  padding-right: 15px;
+}
+.common_padding_t15 {
+  padding-top: 15px;
+}
+.common_padding_b15 {
+  padding-bottom: 15px;
+}
+.common_margin_l20 {
+  margin-left: 20px;
+}
+.common_margin_r20 {
+  margin-right: 20px;
+}
+.common_margin_t20 {
+  margin-top: 20px;
+}
+.common_margin_b20 {
+  margin-bottom: 20px;
+}
+.common_padding_l20 {
+  padding-left: 20px;
+}
+.common_padding_r20 {
+  padding-right: 20px;
+}
+.common_padding_t20 {
+  padding-top: 20px;
+}
+.common_padding_b20 {
+  padding-bottom: 20px;
+}
+.common_margin_l25 {
+  margin-left: 25px;
+}
+.common_margin_r25 {
+  margin-right: 25px;
+}
+.common_margin_t25 {
+  margin-top: 25px;
+}
+.common_margin_b25 {
+  margin-bottom: 25px;
+}
+.common_padding_l25 {
+  padding-left: 25px;
+}
+.common_padding_r25 {
+  padding-right: 25px;
+}
+.common_padding_t25 {
+  padding-top: 25px;
+}
+.common_padding_b25 {
+  padding-bottom: 25px;
+}
+.common_margin_l30 {
+  margin-left: 30px;
+}
+.common_margin_r30 {
+  margin-right: 30px;
+}
+.common_margin_t30 {
+  margin-top: 30px;
+}
+.common_margin_b30 {
+  margin-bottom: 30px;
+}
+.common_padding_l30 {
+  padding-left: 30px;
+}
+.common_padding_r30 {
+  padding-right: 30px;
+}
+.common_padding_t30 {
+  padding-top: 30px;
+}
+.common_padding_b30 {
+  padding-bottom: 30px;
+}
+.common_border_radius {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.common_b_black {
+  background-color: #000000;
+}
+.common_b_skyBlue {
+  background-color: #108ee9;
+}
+.common_b_lightBlack {
+  background-color: #656565;
+}
+.common_b_success {
+  background-color: #00a854;
+}
+.common_b_normals {
+  background-color: #d9d9d9;
+}
+.common_b_error {
+  background-color: #f04134;
+}
+.common_b_edit {
+  background-color: #d897eb;
+}
+.common_f_white {
+  color: #ffffff;
+}
+.common_f_black {
+  color: #000000;
+}
+.common_f_skyBlue {
+  color: #108ee9;
+}
+.common_f_lightBlack {
+  color: #656565;
+}
+.common_f_success {
+  color: #00a854;
+}
+.common_f_normals {
+  color: #d9d9d9;
+}
+.common_f_error {
+  color: #f04134;
+}
+.common_f_edit {
+  color: #d897eb;
+}
+.common_f_size {
+  font-size: 14px;
+}
+.common_f_bold {
+  font-weight: bold;
+}
+.common_f_normal {
+  font-weight: normal;
+}
+.common_t_center {
+  text-align: center;
+}
+.common_t_left {
+  text-align: left;
+}
+.common_t_right {
+  text-align: right;
+}
+/*display*/
+.common_d_none {
+  display: none;
+}
+.common_d_block {
+  display: block;
+}
+.common_d_inline {
+  display: inline;
+}
+.common_d_inlineBlock {
+  display: inline-block;
+}
+/*浮动*/
+.common_fr {
+  float: right;
+}
+.common_fl {
+  float: left;
+}
+/*清除浮动*/
+.common_clear_float:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+/*定位*/
+.common_p_relative {
+  position: relative;
+}
+.common_p_absolute {
+  position: absolute;
+}
+.common_p_fixed {
+  position: fixed;
+}

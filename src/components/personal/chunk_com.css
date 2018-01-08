@@ -1,0 +1,6 @@
+:global .isHide {
+  display: none;
+}
+:global .pointer {
+  cursor: pointer;
+}

@@ -1,0 +1,42 @@
+/*========================*/
+/*=======Antd Admin=======*/
+/*========================*/
+.weather {
+  color: #fff;
+  height: 204px;
+  padding: 24px;
+  justify-content: space-between;
+  display: flex;
+  font-size: 14px;
+}
+.weather .left {
+  display: flex;
+  flex-direction: column;
+  width: 64px;
+  padding-top: 55px;
+}
+.weather .left .icon {
+  width: 64px;
+  height: 64px;
+  background-position: center;
+  background-size: cover;
+}
+.weather .left p {
+  margin-top: 16px;
+}
+.weather .right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.weather .right .temperature {
+  font-size: 36px;
+  text-align: right;
+  height: 64px;
+}
+.weather .right .description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: right;
+}

@@ -1,0 +1,15 @@
+/*========================*/
+/*=======Antd Admin=======*/
+/*========================*/
+:global .ant-modal-mask {
+  background-color: rgba(55, 55, 55, 0.2);
+}
+:global .ant-modal-content {
+  box-shadow: none;
+}
+:global .ant-card:hover {
+  overflow: auto;
+}
+:global .ant-pagination-item {
+  margin-bottom: 8px;
+}

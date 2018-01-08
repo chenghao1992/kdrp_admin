@@ -1,0 +1,66 @@
+/*========================*/
+/*=======Antd Admin=======*/
+/*========================*/
+.money {
+  text-align: left!important;
+}
+.name {
+  text-align: left!important;
+}
+.percent {
+  text-align: left!important;
+}
+.orgnrank1 :global .ant-table.ant-table-small .ant-table-thead > tr > th {
+  background: #fff;
+  border-bottom: solid 1px #fff;
+  color: #999;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.orgnrank1 :global .ant-table .ant-table-tbody > tr > td {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.orgnrank1 :global .ant-table-small .ant-table-header > table {
+  padding: 0;
+}
+.orgnrank1 :global .ant-table-row {
+  height: 34px !important;
+}
+.orgnrank2 :global .ant-table.ant-table-small .ant-table-thead > tr > th {
+  background: #fff;
+  border-bottom: solid 1px #fff;
+  color: #999;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.orgnrank2 :global .ant-table .ant-table-tbody > tr > td {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.orgnrank2 :global .ant-table-small .ant-table-header > table {
+  padding: 0;
+}
+.orgnrank2 :global .ant-table-row {
+  height: 37.5px !important;
+}
+.orgnrank3 :global .ant-table.ant-table-small .ant-table-thead > tr > th {
+  background: #fff;
+  border-bottom: solid 1px #fff;
+  color: #999;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.orgnrank3 :global .ant-table .ant-table-tbody > tr > td {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.orgnrank3 :global .ant-table-small .ant-table-header > table {
+  padding: 0;
+}

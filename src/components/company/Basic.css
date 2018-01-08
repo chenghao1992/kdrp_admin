@@ -1,0 +1,29 @@
+
+.normal {
+}
+
+.avatar-uploader,
+.avatar-uploader-trigger,
+.avatar {
+  width: 150px;
+  height: 150px;
+}
+.avatar-uploader {
+  display: block;
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.uploaderTrigger {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 28px;
+  color: #999;
+  width: 150px;
+  height: 150px;
+  border: 1px dashed #d9d9d9;
+}
+.NotuploaderTrigger {
+  width: 150px;
+  height: 150px;
+}

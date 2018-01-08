@@ -1,0 +1,36 @@
+/*========================*/
+/*=======Antd Admin=======*/
+/*========================*/
+.comments :global .ant-table-thead > tr > th {
+  background: #fff;
+  border-bottom: solid 1px #d9d9d9;
+}
+.comments .avatar {
+  width: 48px;
+  height: 48px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  background: #f8f8f8;
+  display: inline-block;
+}
+.comments .content {
+  text-align: left;
+  color: #757575;
+}
+.comments .date {
+  color: #a3a3a3;
+  line-height: 30px;
+}
+.comments .daterow {
+  display: flex;
+  justify-content: space-between;
+}
+.comments .name {
+  font-size: 14px;
+  color: #474747;
+  text-align: left;
+}
+.comments .avatarcolumn {
+  vertical-align: top;
+}
